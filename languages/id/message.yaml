@@ -1,0 +1,16 @@
+##### MessageCraete Event #####
+
+# On @mention bot get ping back!
+my_prefix: "`🤖` | *Prefix aku adalah:* `%{prefix}`"
+
+# On put id to settings/config.js in DEV_ID
+dev_only: Bot sedang dalam pemeliharaan. (Please come back again later)
+
+# No permission to use command (this for bot!)
+no_perms: Saya tidak memiliki izin untuk menjalankan perintah!
+
+# Bot getting error something!
+error: Ada yang salah.
+
+# You are not the client owner of this bot!
+owner_only: Anda bukan pemilik bot!

@@ -1,0 +1,25 @@
+##### Setup command #####
+setup_topic: "⏯ *Jeda/Lanjutkan musik.*\n⬅ *Musik sebelumnya.*\n⏹ *Hentikan musik.*\n➡ *Lewati musik.*\n🔁 *Loop/Unloop musik.*"
+setup_msg: "*`Berhasil Mengatur Sistem Musik di`* %{channel}\n```Warning: Saya menonaktifkan semua perintah untuk kinerja! jika ingin menggunakan normal silahkan hapus channel request musik```"
+setup_enable: "*`Permintaan lagu saluran yang sudah disiapkan tidak dapat menggunakan perintah ini.`*"
+
+##### Setup Handler #####
+setup_queuemsg: "**__Daftar antrian:__**\nBergabunglah dengan saluran suara dan antrekan lagu berdasarkan nama atau url di sini."
+
+setup_playembed_author: "Tidak ada lagu yang diputar saat ini."
+setup_nowplay: "Sedang diputar..."
+setup_songpause: "Musik dijeda..."
+setup_playembed_image: "https://images2.alphacoders.com/110/thumb-1920-1109233.jpg"
+setup_playembed_desc: ">>> [Invite](https://discord.com/api/oauth2/authorize?client_id=958389048576196659&permissions=3238208&scope=bot) | [Support](https://discord.gg/9C9CpkZVxS)"
+setup_playembed_footer: "Prefix adalah: %{prefix}"
+
+##### Setup Update Handler #####
+
+setup_author: "Sedang diputar..."
+setup_author_icon: "https://cdn.discordapp.com/emojis/741605543046807626.gif"
+setup_desc: "[%{title}](%{url}) `[%{duration}]` • %{request}"
+setup_footer: "%{songs} • Musik didalam antrian | Volume • %{volume}% | %{duration} • Total durasi"
+
+setup_content: "**__Daftar antrian:__**"
+setup_content_queue: "*`%{index} • %{title} • [%{duration}]`* • %{request}"
+setup_content_empty: "Bergabunglah dengan saluran suara dan antrekan lagu berdasarkan nama atau url di sini."

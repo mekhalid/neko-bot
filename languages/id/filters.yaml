@@ -1,0 +1,41 @@
+##### All Filter command!
+filter_loading: "Mengaktifkan **%{name}**. Ini memakan waktu selama beberapa detik..."
+filter_on: "`🔩` | *Telah diaktifkan:* `%{name}`"
+filter_number: "Harap masukkan nomornya."
+
+filter_greater: "Angka harus lebih besar dari 0."
+filter_less: "Angka harus kurang dari 10."
+
+# Bassboost commaand!
+bassboost_loading: "Setting **Bassboost** ke **%{amount}dB**. Ini memakan waktu selama beberapa detik..."
+bassboost_set: "`🔩` | *Bassboost telah di set ke:* `%{amount}`"
+bassboost_limit: "Masukkan angka antara -10 dan 10."
+
+# Equalizer command!
+eq_author: "Custom Equalizer"
+eq_icon: "https://cdn.discordapp.com/emojis/758423098885275748.gif"
+eq_desc: "Ada 14 band yang bisa diatur dari -10 sampai 10. Tidak semua band harus diisi."
+eq_field_title: "Contoh:"
+eq_field_value: "%{prefix}eq 2 3 0 8 0 5 0 -5 0 0"
+eq_number: "Band #%{num} bukan angka yang valid."
+eq_than: "Band #%{num} harus kurang dari 10."
+eq_footer: "Reset jenis equalizer: %{prefix}eq reset"
+
+eq_loading: "Setting **Equalizer** ke... **`%{bands}`** Ini memakan waktu selama beberapa menit..."
+eq_on: "`🔩` | *Equalizer telah di set ke:* `%{bands}`"
+
+# Pitch command!
+pitch_loading: "Setting **Pitch** to **%{amount}**. Ini memakan waktu selama beberapa detik..."
+pitch_on: "`🔩` | *Pitch telah diaktifkan ke:* `%{amount}`"
+
+# Rate command!
+rate_loading: "Setting **Rate** to **%{amount}x**. Ini memakan waktu selama beberapa detik..."
+rate_on: "`🔩` | *Rate elah diaktifkan ke:* `%{amount}x`"
+
+# Reset command!
+reset_loading: "Sedang mematikan **filter** Ini memakan waktu selama beberapa detik..."
+reset_on: "`🔩` | *Matikan:* `filter`"
+
+# Speed command!
+speed_loading: "Setting **Speed** ke **%{amount}x**. Ini memakan waktu selama beberapa detik..."
+speed_on: "`🔩` | *Speed set ke:* `%{amount}x`"

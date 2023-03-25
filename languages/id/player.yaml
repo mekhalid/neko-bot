@@ -1,0 +1,60 @@
+##### On track start playing! Event #####
+track_title: "Mulai dimainkan..."
+track_icon: "https://cdn.discordapp.com/emojis/741605543046807626.gif"
+
+# Embed Field
+author_title: "Pengarang:"
+request_title: "Request oleh:"
+volume_title: "Volume saat ini:"
+queue_title: "Panjang Antrian:"
+duration_title: "Durasi:"
+total_duration_title: "Total Durasi:"
+current_duration_title: "Durasi saat ini: `[0:00 / %{current_duration}]`"
+
+# Need in voice to use button!
+join_voice: "Kamu harus berada di saluran/suara yang sama untuk menggunakan tombol ini."
+
+# Message Button
+switch_pause: Paused
+switch_resume: Resumed
+pause_msg: "`⏯` | *Musik telah:* `%{pause}`"
+
+skip_msg: "`⏭` | *Musik telah:* `Dilewati`"
+
+stop_msg: "`🚫` | *Musik:* `Berhenti`"
+
+shuffle_msg: "`🔀` | *Antrian telah:* `Diacak`"
+
+switch_enable: Enabled
+switch_disable: Disabled
+repeat_msg: "`🔁` | *Loop telah:* `%{loop}`"
+
+volup_msg: "`🔊` | *Ganti volume ke:* `%{volume}%`"
+voldown_msg: "`🔈` | *Ganti volume ke:* `%{volume}%`"
+
+replay_msg: "`⏮` | *Musik telah:* `Diulang`"
+
+queue_author: "Antrian - %{guild}"
+queue_description: "*Sedang diputar*\n*[%{track}](%{track_url})* `[%{duration}]` • %{requester}\n\n*Sisa antrian*:%{list_song}"
+queue_footer: "Halaman • %{page}/%{pages} | %{queue_lang} • Musik | %{total_duration} • Total durasi"
+
+clear_msg: "`📛` | *Antrian telah:* `Dibersihkan`"
+
+##### On QueueEnd Event #####
+queue_end_desc: "`📛` | *Musik telah:* `Habis`"
+
+##### On Track get error!! Event #####
+error_desc: "`❌` | *Musik error:* `Auto-Diskip`"
+
+##### On Track get stuck!! Event #####
+stuck_desc: "`❌` | *Song has stuck:* `Auto-Diskip`"
+
+##### On Bot get move Event #####
+
+# On player get discoconnect
+dis_title: "Terputus"
+dis_desc: "*Saya telah terputus dari <#%{voice}>*"
+
+# On player get move! = (detroy player)
+leave_title: "Pindah"
+leave_desc: "*Saya dipindahkan otomatis terputus*"

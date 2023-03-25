@@ -1,0 +1,218 @@
+### 247 command
+247_loading: "Memuat harap tunggu..."
+247_off: "`🌙` | *Mode 24/7 telah:* `Tidak aktif`"
+247_on: "`🌕` | *Mode 24/7 telah:* `Aktif`"
+
+### Autoplay command!
+autoplay_loading: "Memuat harap tunggu..."
+autoplay_off: "`📻` | *Autoplay telah:* `Tidak aktif`"
+autoplay_on: "`📻` | *Autoplay telah:* `Aktif`"
+
+### Clearqueue command!
+clearqueue_loading: "Memuat harap tunggu..."
+clearqueue_msg: "`📛` | *Antrian telah:* `dibersihkan`"
+
+### Forward command!
+forward_loading: "Memuat harap tunggu..."
+forward_msg: "`⏭` | *Diteruskan ke:* `%{duration}`"
+forward_beyond: "Tidak dapat meneruskan melebihi durasi musik."
+forward_invalid: "Argumen tidak valid, harus berupa angka.\nPenggunaan yang Benar: `%{prefix}forward <detik>`"
+
+### Join command!
+join_loading: "Memuat harap tunggu..."
+join_voice: "Kamu harus berada di saluran suara untuk menggunakan perintah bergabung."
+join_msg: "`🔊` | *Bergabung:* `%{channel}`"
+
+### Leave command!
+leave_loading: "Memuat harap tunggu..."
+leave_msg: "`🚫` | *Keluar:* | `%{channel}`"
+
+### Loop command!
+loop_loading: "Memuat harap tunggu..."
+loop_current: "`🔁` | *Musik loop:* `Saat ini`"
+unloop_current: "`🔁` | *Musik unloop:* `Saat ini`"
+loop_all: "`🔁` | *Musik loop:* `Semua`"
+unloop_all: "`🔁` | *Musik unloop:* `Semua`"
+
+### Loopall command!
+loopall_loading: "Memuat harap tunggu..."
+loopall: "`🔁` | *Musik loop:* `Semua`"
+unloopall: "`🔁` | *Musik unloop:* `Semua`"
+
+### Lyrics command!
+lyrics_loading: "Mencari lirik..."
+lyrics_notfound: "Tidak dapat menemukan lirik untuk musik itu!"
+lyrics_title: "Lyrics untuk %{song}"
+lyrics_toolong: "Lirik terlalu panjang untuk ditampilkan!"
+
+### Nowplaying command!
+np_loading: "Memuat harap tunggu..."
+
+np_title: "Sedang dimainkan..."
+np_title_pause: "Musik berhenti sebentar..."
+np_icon: "https://cdn.discordapp.com/emojis/741605543046807626.gif"
+
+# Embed Field
+np_author: "Pengarang:"
+np_request: "Request dari:"
+np_volume: "Volume:"
+np_view: "Penonton:"
+np_upload: "Di unggah:"
+np_download: "Download:"
+np_current_duration: "Durasi Saat Ini: `[%{current_duration} / %{total_duration}]`"
+
+# Need in voice to use button
+np_invoice: "Kamu harus berada di saluran yang sama/suara."
+
+# Message Button
+np_switch_pause: "Berhenti sebentar"
+np_switch_resume: "Dilanjutkan"
+np_pause_msg: "`⏯` | *Musick telah:* `%{pause}`"
+
+np_replay_msg: "`⏮` | *Musick telah:* `Diputar ulang`"
+
+np_stop_msg: "`🚫` | *Musick telah:* `Berhenti`"
+
+np_skip_msg: "`⏭` | *Musick telah:* `Dikip`"
+
+np_switch_enable: "Aktif"
+np_switch_disable: "Tidak aktif"
+np_repeat_msg: "`🔁` | *Loop telah:* `%{loop}`"
+
+### Pause command!
+pause_loading: "Memuat harap tunggu..."
+pause_switch_pause: "Berhenti sebentar"
+pause_switch_resume: "Dilanjutkan"
+pause_msg: "`⏯` | *Musik telah:* `%{pause}`"
+
+### Play command!
+play_loading: "Memuat harap tunggu..."
+play_invoice: "Kamu harus berada di saluran suara untuk menggunakan perintah."
+play_join: "Saya tidak memiliki izin untuk bergabung dengan saluran suara Kamu."
+play_speak: "Saya tidak memiliki izin untuk berbicara di saluran suara Kamu."
+play_arg: "Berikan nama lagu atau link untuk dicari."
+play_startwith: "Silakan gunakan tautan untuk memutar musik."
+
+play_track: "**Antri • [%{title}](%{url})** `%{duration}` • %{request}"
+play_playlist: "**Antri • [%{title}](%{url})** `%{duration}` (%{songs} tracks) • %{request}"
+play_result: "**Antri • [%{title}](%{url})** `%{duration}` • %{request}"
+
+play_fail: "Error memuat trek gagal"
+play_match: "Error musik tidak cocok"
+
+### Previous command!
+previous_loading: "Memuat harap tunggu..."
+previous_notfound: "Tidak ada lagu sebelumnya yang ditemukan."
+previous_msg: "`⏮` | *Musik telah:* `Sebelumnya`"
+
+### Queue command!
+queue_author: "Antri - %{guild}"
+queue_description: "*Sedang diputar*\n*[%{title}](%{url})* `[%{duration}]` • %{request}\n\n*Sisa antrian*:%{rest}"
+queue_footer: "Halaman • %{page}/%{pages} | %{queue_lang} • Musik | %{duration} • Total durasi"
+queue_notnumber: "Halaman harus berupa angka."
+queue_page_notfound: "Hanya ada %{page} halaman yang tersedia."
+
+### Replay command!
+replay_loading: "Memuat harap tunggu..."
+replay_msg: "`⏮` | *Musik telah:* `Diputar ulang`"
+
+### Resume command!
+resume_loading: "Memuat harap tunggu..."
+resume_switch_pause: "Dijeda"
+resume_switch_resume: "Dilanjutkan"
+resume_msg: "`⏯` | *Musik telah:* `%{resume}`"
+
+### Rewind command!
+rewind_loading: "Memuat harap tunggu..."
+rewind_msg: "`⏮` | *Putar balik ke:* `%{duration}`"
+rewind_beyond: "Tidak dapat mundur melebihi durasi lagu."
+rewind_invalid: "Argumen tidak valid, harus berupa angka.\nPenggunaan yang Benar: `%{prefix}rewind <detik>`"
+
+### Search command!
+search_loading: "Memuat harap tunggu..."
+search_invoice: "Kamu harus berada di saluran suara untuk menggunakan perintah."
+search_join: "Saya tidak memiliki izin untuk bergabung dengan saluran suara Kamu."
+search_speak: "Saya tidak memiliki izin untuk berbicara di saluran suara Kamu."
+search_arg: "Berikan nama musik atau link untuk mencari."
+
+search_title: "Pemilihan musik..."
+search_select: "**(%{num}.) [%{title}](%{url})** `%{duration}` Author: `%{author}`"
+search_footer: "Silakan pilih lagu dalam 30 detik."
+search_no_response: "Tidak ada respon."
+
+search_result: "**Antri • [%{title}](%{url})** `%{duration}` • %{request}"
+search_playlist: "**Antri • [%{title}](%{url})** `%{duration}` (%{songs} tracks) • %{request}"
+
+search_fail: "Error memuat trek gagal"
+search_match: "Error musik tidak cocok"
+
+### Seek command!
+seek_loading: "Memuat harap tunggu..."
+seek_invalid: "Nomor tidak valid. Berikan nomor dalam hitungan detik.\nPenggunaan yang Benar: `%{prefix}seek <detik>`"
+seek_beyond: "Tidak dapat mencari melebihi panjang musik."
+seek_msg: "`⏭` | *Dicari ke:* `%{duration}`"
+
+### Shuffle command!
+shuffle_loading: "Memuat harap tunggu..."
+shuffle_msg: "`🔀` | *Antrian telah:* `Diacak`"
+
+### Skip command!
+skip_loading: "Memuat harap tunggu..."
+skip_msg: "`⏭` | *Musik telah:* `Skipped`"
+
+### Skipto command!
+skipto_loading: "Memuat harap tunggu..."
+skipto_invalid_position: "Nomor tidak valid"
+skipto_arg: "Tidak dapat melompat ke musik yang sedang diputar. Untuk melewatkan jenis musik yang sedang diputar: `%{prefix}skip`"
+skipto_invalid: "Nomor lagu tidak valid."
+skipto_msg: "`⏭` | *Musik telah:* `Di skip ke %{position}`"
+
+### Volume command!
+volume_loading: "Memuat harap tunggu..."
+volume_usage: "*Volume saat ini:* `%{volume}%`"
+volume_invalid: "Kamu hanya dapat mengatur volume ke 1% - 100%"
+volume_msg: "`🔊` | *Ubah volume menjadi:* `%{volume}%`"
+
+### PlaySkip command!
+playskip_loading: "Memuat harap tunggu..."
+playskip_arg: "Berikan nama lagu atau link untuk mencari."
+
+playskip_track: "**Dilewati • [%{title}](%{url})** `%{duration}` • %{request}"
+playskip_playlist: "**Dilewati • [%{title}](%{url})** `%{duration}` (%{songs} tracks) • %{request}"
+playskip_result: "**Dilewati • [%{title}](%{url})** `%{duration}` • %{request}"
+
+playskip_fail: "Error loading track gagal"
+playskip_match: "Error musik tidak cocok"
+
+### RemoveTrack command!
+removetrack_loading: "Memuat harap tunggu..."
+removetrack_arg: "Berikan sejumlah lagu."
+
+removetrack_already: "Tidak dapat menghapus lagu yang sudah diputar."
+removetrack_notfound: "Musik tidak ditemukan."
+
+removetrack_desc: "**Dihapus • [%{name}](%{url})** `%{duration}` • %{request}"
+
+### Move command!
+move_loading: "Memuat harap tunggu..."
+move_arg: "Harap berikan nomor musik dan posisi. Contoh: move 3 1"
+
+move_already: "Tidak dapat menghapus musik yang sudah diputar."
+move_notfound: "Musik tidak ditemukan."
+
+move_desc: "**Dipindahkan • [%{name}](%{url})** to %{pos}"
+
+### SearchSkip command!
+searchskip_loading: "Memuat harap tunggu..."
+searchskip_arg: "Berikan nama Musik atau link untuk mencari."
+
+searchskip_title: "Memilih musik..."
+searchskip_select: "**(%{num}.) [%{title}](%{url})** `%{duration}` Author: `%{author}`"
+searchskip_footer: "Silakan pilih musik dalam 30 detik."
+searchskip_no_response: "Tidak ada respon."
+
+searchskip_result: "**Dilewati • [%{title}](%{url})** `%{duration}` • %{request}"
+searchskip_playlist: "**Dilewati • [%{title}](%{url})** `%{duration}` (%{songs} tracks) • %{request}"
+
+searchskip_fail: "Error gagal memuat trek"
+searchskip_match: "Error musik tidak cocok"

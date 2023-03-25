@@ -1,0 +1,83 @@
+##### Create command #####
+create_loading: "**Sedang membuat playlist...**"
+create_arg: "Berikan nama daftar putar. Contoh: %{prefix}create <nama playlist>"
+create_toolong: "Nama daftar putar tidak boleh lebih dari 16 karakter."
+create_limit_playlist: "Kamu tidak dapat memiliki playlist lebih dari %{limit} playlists."
+create_name_exist: "Nama ini sudah ada dalam data."
+create_created: "`📦` | *Dibuat* • `%{playlist}`"
+
+##### Add command #####
+add_loading: "**Sedang ditambahkan ke playlist...**"
+add_arg: "Berikan nama daftar putar. Contoh: %{prefix}add <Nama playlist> <playlist link>"
+add_match: "Tautan daftar putar tidak valid."
+add_fail: "Error memuat playlist."
+add_track: "**Dicari • [%{title}](%{url})** `%{duration}` • %{user}"
+add_playlist: "**Dicari • [%{title}](%{url})** `%{duration}` (%{track} tracks) • %{user}"
+add_search: "**Dicari • [%{title}](%{url})** `%{duration}` • %{user}"
+add_owner: "Kamu tidak dapat menambahkan ke playlist ini."
+add_limit_track: "Kamu tidak dapat menambahkan lebih dari %{limit} lagu ke daftar putar ini."
+add_added: "`📦` | *Ditambahkan* • [`%{count} track's`] to *Playlist* • `%{playlist}`"
+
+##### Delete command #####
+delete_arg: "Berikan nama daftar putar. Contoh: %{prefix}delete <nama playlist>"
+delete_notfound: "Nama playlist tidak valid."
+delete_owner: "Kamu tidak dapat menghapus playlist ini."
+delete_deleted: "`📦` | *Dihapus* • `%{name}`"
+
+##### Detail command #####
+detail_arg: "Berikan nama daftar putar. Contoh: %{prefix}detail <nama playlist>"
+detail_notfound: "Nama playlist tidak valid."
+detail_private: "Daftar putar ini bersifat pribadi."
+detail_embed_title: "Playlist • %{name}"
+detail_embed_footer: "Halaman • %{page}/%{pages} | %{songs} • Songs | %{duration} • Total durasi"
+detail_notnumber: "Halaman harus berupa angka."
+detail_page_notfound: "Hanya ada %{page} halaman yang tersedia."
+detail_track: "%{num}. **[%{title}](%{url})** | *Pengarang*: %{author} • `[%{duration}]`"
+
+##### Import command #####
+import_loading: "Mengimpor daftar putar ke antrean..."
+import_voice: "Kamu harus berada di saluran suara untuk menggunakan perintah."
+import_join: "Saya tidak memiliki izin untuk bergabung dengan saluran suara Anda."
+import_speak: "Saya tidak memiliki izin untuk berbicara di saluran suara Anda."
+import_arg: "Harap tentukan nama daftar putar. Contoh: %{prefix}import <nama playlist>**"
+import_notfound: "Nama playlist tidak valid."
+import_private: "Daftar putar ini bersifat pribadi."
+import_imported: "**Impor • %{name}** `[%{duration}]` (%{tracks} tracks) • %{user}"
+import_match: "Tautan daftar putar tidak valid."
+import_fail: "Error memuat playlist."
+
+##### View command #####
+view_embed_title: "%{user}'s • Playlist"
+view_embed_footer: "Halaman • %{page}/%{pages} | %{songs} • Playlists"
+view_notnumber: "Halaman harus berupa angka."
+view_page_notfound: "Hanya ada %{page} halaman yang tersedia."
+view_embed_playlist: "%{num}. **`%{name}`** • (%{tracks} tracks) • *Dibuat pada*: `[%{create} ago]`"
+
+##### Remove command #####
+remove_arg: "Berikan nama daftar putar. Contoh: %{prefix}remove <nama playlist> <position>"
+remove_notfound: "Nama playlist tidak valid."
+remove_song_notfound: "Tidak dapat menemukan lagu yang akan dihapus"
+remove_owner: "Kamu tidak dapat menghapus lagu dari playlist ini."
+remove_removed: "`📦` | *Dihapus* • posisi `%{position}` di `%{name}`"
+
+##### Savequeue command #####
+savequeue_arg: "Berikan nama daftar putar. Contoh: %{prefix}savequeue <nama playlist>"
+savequeue_notfound: "Nama playlist tidak valid."
+savequeue_owner: "Kamu tidak dapat menyimpan lagu ke playlist ini."
+savequeue_saved: "`📦` | *Disimpan* • (%{tracks} tracks) to `%{name}`"
+
+##### Private command #####
+private_arg: "Berikan nama daftar putar. Contoh: %{prefix}private <nama playlist>"
+private_notfound: "Nama playlist tidak valid."
+private_owner: "Kamu tidak dapat pribadi daftar putar ini."
+private_already: "Daftar putar ini sudah bersifat pribadi."
+private_loading: "Memuat harap tunggu..."
+private_success: "`📦` | *Daftar putar sekarang adalah:* `Private`"
+
+##### Public command #####
+public_arg: "Berikan nama daftar putar. Contoh: %{prefix}public <playlist name>"
+public_notfound: "Nama playlist tidak valid."
+public_owner: "Kamu tidak dapat memublikasikan daftar putar ini."
+public_already: "Daftar putar ini sudah untuk umum."
+public_loading: "Memuat harap tunggu..."
+public_success: "`📦` | *Daftar putar sekarang adalah:* `Public`"

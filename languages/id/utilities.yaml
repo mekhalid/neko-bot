@@ -1,0 +1,28 @@
+##### Prefix command #####
+prefix_perm: "Kamu memerlukan izin `MANAGE_GUILD` untuk menggunakan perintah ini."
+prefix_arg: "Silakan tentukan prefix!"
+prefix_length: "Prefix tidak boleh lebih dari 10 karakter!"
+prefix_set: "`🔧` | *Prefix telah diset ke:* `%{prefix}`"
+prefix_change: "`🔧` | *Prefix telah diubah menjadi:* `%{prefix}`"
+prefix_error: "Terjadi kesalahan saat menyetel prefix!"
+
+##### Language command #####
+lang_perm: "Kamu memerlukan izin `MANAGE_GUILD` untuk menggunakan perintah ini."
+lang_arg: "Silahkan tentukan bahasa!"
+provide_lang: "Berikan bahasa: `%{languages}`"
+lang_set: "`🔧` | *Bahasa telah diset ke:* `%{language}`"
+lang_change: "`🔧` | *Bahasa telah diubah menjadi:* `%{language}`"
+lang_error: "Ada yang tidak beres, coba lagi nanti."
+
+##### Restart command #####
+restart_msg: "`🤖` | *Bot telah:* `Mematikan`"
+
+##### Help command #####
+help_desc: "Silahkan Pilih Menu Kategori!"
+help_category_desc: "Pilih %{category} untuk melihat semua perintah."
+help_category: "%{category}"
+help_timeout: "```Menu Bantuan kehabisan waktu, silakan coba %{prefix}help untuk melihat lagi.```"
+
+##### Player Control Toggle command #####
+control_perm: "Anda memerlukan izin `MANAGE_GUILD` untuk menggunakan perintah ini."
+control_set: "`🔧` | *Kontrol pemain adalah:* `%{playerControl}`"
